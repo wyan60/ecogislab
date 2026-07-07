@@ -1,0 +1,36 @@
+# Translation of Themes - Centilium Masonry in Japanese
+# This file is distributed under the same license as the Themes - Centilium Masonry package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-06 09:52:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Centilium Masonry\n"
+
+#. Description of the plugin/theme
+msgid "Child Theme of Centilium. Updated with Masonry feature. Responsive and customizable WordPress theme with elegant design and custom colors suitable for bloging. Built on the popular bootstrap CSS framework that adapts your website to mobile devices and the desktop. Centilium was created with mobile first approach and optimized for AdSense and user engagements. Centilium works better in all the major browsers. Demo: http://wpthemes.icynets.com/centilium-masonry/"
+msgstr "Masonry 機能でアップデートした Centilium の子テーマ。ブログに適したエレガントなデザインとカスタムカラーの、レスポンシブでカスタマイズ可能な WordPress テーマです。人気の Bootstrap CSS フレームワークで構築してあり、あなたの Web サイトをモバイル端末やデスクトップに対応させます。Centilium はモバイルファーストのアプローチで作成され、AdSense とユーザーエンゲージメントに最適化されています。Centilium はすべての主要なブラウザで動作します。デモ: http://wpthemes.icynets.com/centilium-masonry/"
+
+#. Theme Name of the plugin/theme
+msgid "Centilium Masonry"
+msgstr "Centilium Masonry"
+
+#: template-parts/content.php:28
+msgid "READ MORE"
+msgstr "もっと読む"
+
+#. Author URI of the plugin/theme
+msgid "http://www.icynets.com"
+msgstr "http://www.icynets.com"
+
+#. Author of the plugin/theme
+msgid "icyNETS"
+msgstr "icyNETS"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.icynets.com/centilium-masonry-theme/"
+msgstr "http://www.icynets.com/centilium-masonry-theme/"

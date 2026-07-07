@@ -1,0 +1,203 @@
+/*
+Theme Name: Worldwide
+Theme URI: https://www.theclassictemplates.com/products/free-worldwide-wordpress-template/
+Author: Classic Template
+Author URI: https://www.theclassictemplates.com/
+Description: Worldwide is a multipurpose theme suitable for accountant, advertising, consulting, finance, financial, insurance, marketing, software, company, agency, blogger, creative and professional portfolio, business, art, adventure, sports, travel journal, travel Blogger, tour planner, corporate, informative, agencies, travel, design, art, personal, restaurant, sport, medical, startup, corporate, business, ecommerce, freelancers or any type of online agency or firm you will want to use this cool design for your website. It has a responsive layout that fits in all devices screen sizes. The theme is SEO-friendly therefore your website will rank soon on major search engines. It is implemented on bootstrap framework and has secure and clean codes. It is also a translation-ready theme.
+Version: 1.9
+Tested up to: 6.7
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: worldwide
+Tags: blog, two-columns, custom-colors, right-sidebar, custom-logo, footer-widgets, sticky-post, custom-header, featured-images, editor-style, custom-background, custom-menu, threaded-comments, theme-options, translation-ready
+
+Worldwide WordPress Theme has been created by Classic Template(theclassictemplates.com), 2016.
+Worldwide WordPress Theme is released under the terms of GNU GPL
+*/
+
+*{
+margin:0;
+padding:0;
+outline:none;
+}
+img{
+border:none;
+margin:0;
+padding:0;
+height:auto;
+max-width:100%;
+}
+body{
+background-color:#fff;
+margin:0;
+padding:0;
+line-height:20px;
+font-size:14px;
+color:#5c5c5c;
+font-family: 'Roboto Condensed', sans-serif;
+-ms-word-wrap:break-word;
+word-wrap:break-word;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.aligncenter{
+margin:0;
+padding:0;
+}
+p{
+margin:0;
+padding:0;
+}
+.clear{
+clear:both;
+}
+a{
+color:#d34618;
+text-decoration:none;
+}
+a:hover{
+color:#ba7101;
+}
+.alignnone,.header-banner img{ width:100% !important;}
+img.alignleft, .alignleft{ float:left; margin:0 15px 0 0; padding:5px; border:1px solid #f6f4f4;}
+img.alignright, .alignright{ float:right; margin:0 0 0 15px; padding:5px; border:1px solid #f6f4f4;}
+.tag-sticky-2{ background-color:#f6f4f4; padding:20px;}
+
+.entry-content ol li, .entry-content ul li{ margin-left:15px;}
+ul li ul, ul li ul li ul, ol li ol, ol li ol li ol{ margin-left:10px;}
+h1,h2,h3,h4,h5,h6{ color:#484f5e; font-family:'Roboto Condensed', sans-serif; margin:0 0 20px; padding:0; line-height:1.1; font-weight:400; }
+.left{ float:left;}
+.right{ float:right;}
+h2.section_title{font-weight:400; text-align:center; padding-bottom:20px; margin-bottom:40px; position:relative; color:#111;}
+h2.section_title::after{ content:""; position:absolute; width:48px; height:1px; background-color:#292929; bottom:0; left:0; right:0; margin:auto;}
+
+/*default pagination*/
+.pagination{display:table; clear:both;}
+.pagination .nav-links{ margin:20px 0;}
+.pagination .nav-links a{ margin-right:0; background:#646262; color:#fff; padding:5px 10px;}
+.pagination .nav-links span.current, .pagination .nav-links a:hover { padding:5px 10px; background:#d34618; color:#fff;}
+
+.postmeta{padding:5px 0; color:#999;}
+.postmeta a{color:#999;}
+.postmeta a:hover{color:#d34618;}
+
+#comment-nav-above .nav-previous, #comment-nav-below .nav-previous{ float:none !important; margin:10px 0;}
+ol.comment-list li{ list-style:none; margin-bottom:5px;}
+
+body.wp-custom-logo .logo h1{ display:none;}
+.logo{float:left; width:25%; z-index:999; color:#fff; padding:15px 0;}
+.logo img{ height:51px; width:auto;}
+.logo h1{font-weight:600; margin:0; line-height:30px; color:#fff; font-size:30px; }
+.logo h1 span{ color:#d34618;}
+.logo p{ color:#fff;}
+
+.widget-right{ float:right; text-align:right;}
+.header{width:100%; z-index:999; background-color:#111111; }
+.fixed-header {position:fixed !important; top:auto; background-color:#111111;}
+.container{ width:1170px; margin:0 auto; position:relative;}
+/*header menu css*/
+.toggle{display: block;}
+.toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #3e3e3e; padding:10px 10px; font-size:16px; text-align:left; display:none;}
+.toggle a:hover{color:#ffffff !important;}
+.headernav{ padding:0;}
+.headernav ul { margin:0; padding:0; font-family:'Roboto Condensed', sans-serif; font-weight:400; font-size:14px; }
+.headernav ul li{ display:inline-block; float:left; margin:0; position:relative; text-align:center;}
+.headernav ul li a{ padding:30px 15px; display:block; }
+.headernav ul li:last-child a{ border-right:none; }
+.headernav ul li ul li{display:block; position:relative; float:none; top:-1px; border-bottom:1px solid #777;}
+.headernav ul li ul li a{display:block; padding-top:10px; padding-bottom:10px; position:relative; top:1px; text-align:left;  border-right:none; }
+.headernav ul li a, .headernav ul li.current_page_item ul.sub-menu li a, .headernav ul li.current-menu-ancestor ul.sub-menu li a{ color:#fff;}
+
+.headernav ul li a:hover, .headernav ul li.current_page_item a, .headernav ul li.current_page_item ul li a:hover, .headernav ul li.current-menu-ancestor a.parent, .headernav ul li.current-menu-ancestor ul.sub-menu li.current_page_item a, .headernav ul li.current-menu-ancestor ul.sub-menu li a:hover{color:#d34618;}
+
+.headernav ul li ul{display:none; z-index:9999999; position:relative;}
+.headernav ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; background-color:rgba(0,0,0,0.3);}
+.headernav ul li:hover ul li ul{display:none; position:relative;}
+.headernav ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:1px;}
+.headernav ul li:hover > ul li a{ border-radius: 0px;}
+
+/* = Services section css
+-------------------------------------------------------------- */
+.last_column{clear:right; margin-right:0 !important; }
+.first_column{clear:right; margin-left:0 !important;}
+
+/* = Page lay out css
+-------------------------------------------------------------- */
+.site-main{ width:790px; margin:0; padding:0; float:left;}
+.sitefull{ width:100% !important; float:none !important;}
+.sitefull p{ margin-bottom:15px;}
+.fullwidth{ width:100% !important; float:none !important;}
+.pagewrapper{ padding:40px 0;}
+h2.section-title{font-weight:600; font-size:32px; color:#3a3a3a; margin:0 0 20px 0;}
+h1.entry-title{ font-size:24px; font-weight:600;}
+.pagewrapper p{ margin-bottom:20px; line-height:20px;}
+.articlelists{ margin:0 0 25px 0; padding-bottom:25px; border-bottom:1px solid #f7f7f7;  }
+.articlelists h4{ margin-bottom:10px; font-size:20px; font-weight:600;}
+.articlelists h4 a{ color:#484f5e;}
+.articlelists h4 a:hover{ color:#d34618;}
+.articlelists p{ margin-bottom:20px;}
+.blog-meta{ font-style:italic; margin-bottom:8px;}
+.post-date, .post-comment, .post-categories{ display:inline; color:#000000;}
+.single_title{ margin-bottom:5px;}
+.BlogPosts{ width:31.2%; float:left; margin:0 3% 0 0;}
+.BlogPosts img{ width:100%;}
+.BlogPosts h2{ margin:10px 0; font-size:22px; }
+.post-thumb{ width:35%; float:left; margin:5px 25px 5px 0; height:175px; overflow:hidden;}
+.post-thumb img{ width:100%;}
+
+.homeblogpost .articlelists{ width:30%; margin:0 5% 5% 0; float:left; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; border:none; padding:0; position:relative;}
+.homeblogpost .articlelists .post-thumb{ float:none; width:auto; margin:0; height:200px; overflow:hidden;}
+.homeblogpost .articlelists .post-thumb img{ width:100%; height:auto;}
+.homeblogpost .articlelists h4{ margin:20px 0 10px; font-size:18px; font-weight:400; border-bottom:1px dotted #ccc; padding-bottom:10px;}
+.homeblogpost .articlelists .postmeta{ display:block; color:#999; }
+.homeblogpost .articlelists .postmeta a, .homeblogpost .articlelists .post-date{ color:#999;}
+
+.homeblogpost .articlelists .ReadMore{ background-color:#d34618; color:#fff; padding:0 20px;  display:inline-block; height:35px; line-height:35px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+.homeblogpost .articlelists .ReadMore:hover{ background-color:#333 !important; color:#fff; }
+.homeblogpost .articlelists:nth-child(3n+3) { margin-right: 0; }
+
+/* = sidebar
+----------------------------------------------- */
+#sidebar{ width:330px; float:right;}
+aside.widget{margin-bottom:30px;}
+aside.widget ul{ list-style:disc; }
+h3.widget-title{margin-bottom:10px; color:#111; border-bottom:1px solid #ccc; padding-bottom:10px; font-size:22px;}
+#sidebar ul li{ list-style:inside none disc; border-bottom:1px dashed #d0cfcf; padding:8px 0;}
+#sidebar ul li a{ padding:0 0 0 10px; color:#3b3b3b;  display:inline-block; }
+#sidebar ul li a:hover{ color:#34c6f6;}
+#sidebar ul li:last-child{ border:none;}
+
+/* = Footer css
+---------------------------------------------- */
+#footer{background-color:#1C1F24; position:relative;  color:#C1C0C0;}
+.threebox {
+	width:22%;
+	float:left;
+  	margin:0 3% 2% 0;
+  	padding:35px 0 20px;
+}
+.footer-column-3 { margin-right:0px !important;}
+.threebox h5{ font-weight:400; font-size:20px; color:#fff; margin-bottom:25px; border-bottom:1px solid #303030; padding-bottom:15px; text-transform:uppercase; }
+.threebox h5 span{ font-weight:300; color:#dc403b; }
+.threebox ul{ margin:0; padding:0; list-style:inside disc;}
+.threebox ul li { display:block; padding:0;}
+.threebox ul li a { color:#fff; border-bottom:1px solid #ccc; padding:5px 0; display:inline-block;}
+.threebox ul li a:hover, .threebox ul li.current_page_item a { color:#dd5145; }
+
+.threebox a.readmore span{ color:#fff;}
+.threebox p{ margin-bottom:15px;}
+.footerright a{ color:#dc403b;}
+.footerright a:hover{ color:#fff;}
+.creditwrapper { background-color:#0F1114; padding:15px 0; text-align: center;}
+.footerleft { float:left;}
+.footerleft span{color:#dc403b;}
+.footerright { float:right;}
+.textwidget select{ width:100%;}
+table{ width:100%}

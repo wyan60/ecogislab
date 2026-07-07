@@ -1,0 +1,152 @@
+
+(function ( $ ) {
+
+    $.fn.modal = function(option) {
+        let modal = this;
+        const animationDuration = 300;
+
+        if (option === 'hide') {
+            // Animate out
+            modal.removeClass('show');
+            $('.wpdm-mbd').removeClass('show');
+
+            setTimeout(function() {
+                modal.css('display', 'none');
+                $('.wpdm-mbd').remove();
+                modal.trigger('hidden.bs.modal');
+                $('body').removeClass('modal-open');
+            }, animationDuration);
+
+            return modal;
+        }
+
+        // Show modal
+        $('body').addClass('modal-open');
+
+        // Create backdrop with animation
+        const backdrop = $('<div class="modal-backdrop fade wpdm-mbd"></div>');
+        modal.after(backdrop);
+
+        // Display modal (still invisible due to CSS)
+        modal.css({
+            'display': 'block',
+            'z-index': 99999
+        });
+
+        // Trigger reflow for CSS transition
+        modal[0].offsetHeight;
+
+        // Animate in
+        requestAnimationFrame(function() {
+            backdrop.addClass('show');
+            modal.addClass('show');
+        });
+
+        modal.trigger('shown.bs.modal');
+
+        // Handle dismiss buttons
+        modal.find('[data-dismiss="modal"]').off('click.wpdmModal').on('click.wpdmModal', function(e) {
+            e.preventDefault();
+            modal.modal('hide');
+        });
+
+        // Handle backdrop click to close
+        modal.off('click.wpdmModalBackdrop').on('click.wpdmModalBackdrop', function(e) {
+            if (e.target === modal[0]) {
+                modal.modal('hide');
+            }
+        });
+
+        // Handle escape key
+        $(document).off('keydown.wpdmModal').on('keydown.wpdmModal', function(e) {
+            if (e.key === 'Escape' && modal.hasClass('show')) {
+                modal.modal('hide');
+            }
+        });
+
+        return modal;
+    };
+
+    $.fn.tooltip = function (options) {
+        // Default options
+        var settings = $.extend({
+            background: "#333",
+            color: "#fff",
+            padding: "5px 10px",
+            borderRadius: "4px",
+            fontSize: "12px"
+        }, options);
+
+        // Create tooltip element once
+        var $tooltip = $("<div class='simple-tooltip'></div>").css({
+            position: "absolute",
+            maxWidth: "200px",
+            display: "none",
+            zIndex: 9999,
+            background: settings.background,
+            color: settings.color,
+            padding: settings.padding,
+            borderRadius: settings.borderRadius,
+            fontSize: settings.fontSize,
+            pointerEvents: "none",
+        }).appendTo("body");
+
+        // Attach events
+        return this.each(function () {
+            var $elem = $(this);
+            var title = $elem.attr("title");
+
+            $elem.on("mouseenter", function (e) {
+                if (!title) return;
+                $elem.data("tip-title", title).removeAttr("title"); // prevent default browser tooltip
+                $tooltip.text(title).fadeIn(150);
+                $tooltip.css({
+                    top: e.pageY + 10,
+                    left: e.pageX + 10
+                });
+            }).on("mousemove", function (e) {
+                $tooltip.css({
+                    top: e.pageY + 10,
+                    left: e.pageX + 10
+                });
+            }).on("mouseleave", function () {
+                $tooltip.hide();
+                $elem.attr("title", $elem.data("tip-title")); // restore original title
+            });
+        });
+    };
+
+}( jQuery ));
+
+
+
+jQuery(function($) {
+    $body = $('body');
+    $body.on('click', '.w3eden [data-toggle="collapse"]', function(e) {
+        e.preventDefault();
+        $($(this).attr('href')).slideToggle();
+    });
+    $body.on('click', '.w3eden [data-toggle="modal"], .w3eden[data-toggle="modal"]', function(e) {
+        e.preventDefault();
+        alert($(this).data('target'));
+        $($(this).data('target')).modal('show');
+    });
+    $body.on('click', '.w3eden [data-toggle="tab"]', function(e) {
+        e.preventDefault();
+        const $tabs = $(this).parents('.nav-tabs');
+        const $pills = $(this).parents('.nav-pills');
+        console.log($tabs);
+        $tabs.find('a[data-toggle="tab"]').each(function() {
+            $(this).removeClass('active');
+            $(this).parent('li').removeClass('active');
+            $($(this).attr('href')).removeClass('active');
+        });
+        $pills.find('a[data-toggle="tab"]').each(function() {
+            $(this).removeClass('active');
+            $($(this).attr('href')).removeClass('active');
+        });
+        $(this).addClass('nav-link active');
+        $(this).parent('li').addClass('active');
+        $($(this).attr('href')).addClass('active');
+    });
+});

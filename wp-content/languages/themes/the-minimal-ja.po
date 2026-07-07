@@ -1,0 +1,769 @@
+# Translation of Themes - The Minimal in Japanese
+# This file is distributed under the same license as the Themes - The Minimal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-15 05:53:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - The Minimal\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "The Minimal"
+msgstr "The Minimal"
+
+#: header.php:59
+msgid "Mobile"
+msgstr "モバイル"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: inc/extras.php:413
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/extras.php:407
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/extras.php:205 inc/extras.php:210
+msgid "Email"
+msgstr "メール"
+
+#: inc/extras.php:204 inc/extras.php:208
+msgid "Name"
+msgstr "名前"
+
+#: inc/getting-started/getting-started.php:145
+msgid "Free Vs Pro"
+msgstr "無料版とプロ版の違い"
+
+#: inc/getting-started/getting-started.php:136
+msgid "FAQ's &amp; Support"
+msgstr "よくある質問とサポート"
+
+#: inc/getting-started/getting-started.php:106
+msgid "You will find everything you need to get started with %1$s below."
+msgstr "%1$sを始めるために必要なものはすべて以下にあります。"
+
+#: inc/getting-started/getting-started.php:105
+msgid "Getting started with %1$s v%2$s"
+msgstr "%1$sと%2$sをはじめてみよう"
+
+#: inc/getting-started/getting-started.php:40
+msgid "Activating "
+msgstr "有効化中 "
+
+#: inc/getting-started/getting-started.php:16
+#: inc/getting-started/getting-started.php:17
+#: inc/getting-started/getting-started.php:127
+msgid "Getting Started"
+msgstr "はじめてみよう"
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
+msgid "Jetpack Portfolio"
+msgstr "Jetpack ポートフォリオ"
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:104
+msgid "Deactivate"
+msgstr "無効化"
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:89
+#: inc/getting-started/class-getting-start-plugin-helper.php:109
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/getting-started/class-getting-start-plugin-helper.php:85
+msgid "Install and activate"
+msgstr "インストールと有効化"
+
+#: inc/getting-started/tabs/plugins-panel.php:36
+msgid "Version %s"
+msgstr "バージョン %s"
+
+#: inc/getting-started/tabs/plugins-panel.php:26
+msgid "These Free Plugins might be handy for you."
+msgstr "これらの無料プラグインがお役に立つかもしれません。"
+
+#: inc/getting-started/tabs/plugins-panel.php:25
+msgid "Free Plugins"
+msgstr "無料プラグイン"
+
+#: inc/getting-started/getting-started.php:118
+#: inc/getting-started/tabs/plugins-panel.php:10
+msgid "Recommended Plugins"
+msgstr "おすすめプラグイン"
+
+#: inc/getting-started/tabs/support-panel.php:54
+msgid "Also, when you submit the support ticket, please try to provide maximum details so that we can look into your issue in detail and solve it in minimum time. We recommend you to send us a screenshot(s) with issues explained and your website's address (URL)."
+msgstr "サポートチケットを送信する際には、問題をより迅速に解決できるように、できるだけ詳細な情報を提供してください。問題の説明とサイトのアドレス (URL) を記載したスクリーンショットを送信することをおすすめします。"
+
+#: inc/getting-started/tabs/support-panel.php:53
+msgid "Please ensure that you have updated to the latest version of the theme before you submit a support ticket for any issue. We might have already fixed the bug in the previous theme update."
+msgstr "問題のサポートチケットを送信する前に、テーマの最新バージョンに更新したことを確認してください。 以前のテーマの更新ですでにバグを修正した可能性があります。"
+
+#: inc/getting-started/tabs/support-panel.php:51
+msgid "How can I solve my issues quickly and get faster support?"
+msgstr "問題を迅速に解決し、よりすばやくサポートを得るにはどうすればよいですか ?"
+
+#: inc/getting-started/tabs/support-panel.php:46
+msgid "If this didn't help, please contact us via our %1$sSupport Ticket%2$s."
+msgstr "問題が解決しない場合は、 %1$sサポートチケット%2$sからお問い合わせください。"
+
+#: inc/getting-started/tabs/support-panel.php:45
+msgid "To solve the issue, deactivate all the plugins first, except the ones recommended by the theme. Then, hard reload your website using %1$s\"Ctrl+Shift+R\"%2$s on Windows and %1$s\"Cmd+Shift+R\"%2$s on Mac. If the issues are fixed, start activating the plugins one by one, and reload and check your site each time. This will help you find out the plugin that is causing the problem."
+msgstr "問題を解決するにはまず、テーマの推奨プラ​​グインを除いたすべてのプラグインを停止します。次に、 Windows なら %1$s\"Ctrl + Shift + R\"%2$s、Mac なら %1$s\"Cmd+Shift+R\"%2$s を使用してサイトを強制リロードします。もし問題が修正されたら、プラグインをひとつずつ有効化し、その度にサイトをリロードして確認します。これは、問題の原因となっているプラ​​グインを見つけるのに役立ちます。"
+
+#: inc/getting-started/tabs/support-panel.php:44
+msgid "If your customizer is not loading properly or you are having issues with the theme, it might be due to the plugin conflict."
+msgstr "カスタマイザーが正しくロードされていないか、テーマに問題がある場合は、プラグインの競合が原因である可能性があります。"
+
+#: inc/getting-started/tabs/support-panel.php:42
+msgid "Why is my theme not working well?"
+msgstr "テーマがうまく動作しないのはなぜですか ?"
+
+#: inc/getting-started/tabs/support-panel.php:37
+msgid "You can change the copyright text going to %1$sAppearance > Customize > Footer Settings%2$s. However, if you want to hide the author credit text, please %3$supgrade to the Pro version%4$s."
+msgstr "%1$s外観 > カスタマイズ > フッター設定%2$sに移動して、著作権テキストを変更できます。ただし、投稿者のクレジットテキストを非表示にするには、%3$sプロ版にアップグレードしてください%4$s。"
+
+#: inc/getting-started/tabs/support-panel.php:35
+msgid "How do I change the copyright text?"
+msgstr "著作権テキストを変更するにはどうすればよいですか ?"
+
+#: inc/getting-started/tabs/support-panel.php:30
+msgid "The Pro version is built with lots of flexibility in mind for future upgrades. Therefore, it is slightly different than the free theme but extremely flexible and easy-to-use."
+msgstr "プロ版は、将来のアップグレードのために多くの柔軟性を考慮して構築されています。このため、無料のテーマとは少し異なりますが、非常に柔軟で簡単に使えます。"
+
+#: inc/getting-started/tabs/support-panel.php:29
+msgid "However, since the Pro version comes with added features and settings, you will need to set up the additional features in the customizer. This process is simple and only takes a few minutes."
+msgstr "ただし、プロ版には機能と設定が追加されているため、カスタマイザーで追加機能を設定する必要があります。このプロセスは簡単で、数分しかかかりません。"
+
+#: inc/getting-started/tabs/support-panel.php:28
+msgid "When you upgrade to the Pro theme, your posts, pages, media, categories, and other data will remain intact-- all your data is saved."
+msgstr "プロ版のテーマにアップグレードしても、投稿、ページ、メディア、カテゴリー、その他のデータはそのまま残り、すべてのデータが保存されます。"
+
+#: inc/getting-started/tabs/support-panel.php:26
+msgid "Upgrading to the Pro version- will I lose my changes?"
+msgstr "プロ版へのアップグレード - 変更は失われますか ?"
+
+#: inc/getting-started/tabs/support-panel.php:21
+msgid "Along with the additional features and regular updates, you get dedicated and quick support with the premium theme. If you run into any issue while creating a website with the premium theme, you will get a quicker response compared to the free support."
+msgstr "プレミアムテーマでは追加機能や定期的な更新とともに、専用の迅速なサポートも受けることができます。プレミアムテーマでサイトを作成する際に問題に遭遇した場合は、無料のサポートよりも素早く回答を得ることができます。"
+
+#: inc/getting-started/tabs/support-panel.php:19
+msgid "What are the perks of upgrading to the Premium version?"
+msgstr "プレミアム版にアップグレードする利点は何ですか ?"
+
+#: inc/getting-started/tabs/support-panel.php:14
+msgid "Overall, you will have more control over the customization and editing of your website with the Pro version."
+msgstr "全体として、プロ版ではサイトのカスタマイズと編集をより詳細にコントロールできます。"
+
+#: inc/getting-started/tabs/support-panel.php:13
+msgid "Both the Free and Pro version of the themes are coded well and are developed with best coding practices. However, the Pro version of the theme comes with extended features and dedicated support team to help you solve your queries. The Pro theme comes with multiple layouts to help you create a unique and attractive website. Also, the Pro themes are fully compatible with Polylang and WPML plugin to help you create a multilingual blog and get wide reach."
+msgstr "無料版とプロ版のテーマはいずれも適切にコーディングされており、最良のコーディング慣行を使って開発されています。ただし、テーマのプロ版にはクエリーの解決を支援する拡張機能と専用のサポートチームが付属しています。 プロ版のテーマには、ユニークで魅力的なサイトを作成するのに役立つ複数のレイアウトが付属しています。また、プロ版のテーマは Polylang や WPML プラグインと完全に互換性があるため、多言語ブログを作成して幅広いリーチを得ることができます。"
+
+#: inc/getting-started/tabs/support-panel.php:11
+msgid "What is the difference between Free and Pro?"
+msgstr "無料版とプロ版の違いは何ですか ?"
+
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the knowledge base"
+msgstr "ナレッジベースをご覧ください"
+
+#: inc/getting-started/tabs/link-panel.php:21
+msgid "Our documentation comes with a step-by-step guide from installing WordPress to customizing our theme to creating an attractive and engaging website."
+msgstr "ドキュメンテーションには、WordPress のインストールからテーマのカスタマイズ、魅力的でエンゲージメントの高いサイトの作成まで、段階的なガイドが含まれます。"
+
+#: inc/getting-started/tabs/link-panel.php:20
+msgid "Need help with WordPress and our theme as quickly as possible? Visit our well-organized documentation."
+msgstr "WordPress をできるだけすぐ使い始めるためのサポートが必要な場合は、整理されたナレッジベースをご覧ください。"
+
+#: inc/getting-started/tabs/link-panel.php:19
+#: inc/getting-started/tabs/link-panel.php:23
+msgid "Visit the Knowledge Base"
+msgstr "ナレッジベースをご覧ください"
+
+#: inc/getting-started/tabs/link-panel.php:14
+msgid "Read more about the features here"
+msgstr "この機能について詳しく読む"
+
+#: inc/getting-started/tabs/link-panel.php:12
+msgid "Also, the premium theme gets regular updates and has a dedicated support team to solve your queries."
+msgstr "また、プレミアムテーマは定期的な更新を行っており、質問を解決するための専用のサポートチームもあります。"
+
+#: inc/getting-started/tabs/link-panel.php:11
+msgid "The Pro version of the theme allows you to change the look and feel of the website with just a few clicks. You can easily change the color, background image and pattern, as well as fonts of the website with the Pro theme. The Pro version comes with multiple layouts to help you create an attractive and engaging website. Furthermore, the premium themes are WPML and Polylang compatible to allow you to create a multilingual website with ease."
+msgstr "テーマのプロ版では、数回クリックするだけでサイトの外観を変更できます。サイトの色、背景画像、パターン、フォントも簡単に変更できます。 プロ版には、魅力的でエンゲージメント性の高いサイトを作成するために役立つ複数のレイアウトが付属しています。さらに、プレミアムテーマは WPML や Polylang と互換性があるため、多言語サイトを簡単に作成できます。"
+
+#: inc/getting-started/tabs/link-panel.php:10
+msgid "Upgrade To Pro"
+msgstr "プロ版にアップグレード"
+
+#: inc/getting-started/tabs/help-panel.php:32
+msgid "View Demo"
+msgstr "デモを表示"
+
+#: inc/getting-started/tabs/help-panel.php:31
+msgid "Visit the Demo"
+msgstr "デモを表示"
+
+#: inc/getting-started/tabs/help-panel.php:30
+msgid "Visit the demo to get more idea about our theme design and its features."
+msgstr "デモを見て、テーマのデザインや機能についてもっと知りましょう。"
+
+#: inc/getting-started/tabs/help-panel.php:24
+msgid "Contact Support"
+msgstr "サポートに問い合わせる"
+
+#: inc/getting-started/tabs/help-panel.php:23
+msgid "Visit the Support"
+msgstr "サポートにアクセス"
+
+#: inc/getting-started/tabs/help-panel.php:21
+msgid "It's always better to visit our %1$sDocumentation Guide%2$s before you send us a support query."
+msgstr "サポートリクエストを送信する前に、%1$sドキュメンテーションガイド%2$sにアクセスすることをおすすめします。"
+
+#: inc/getting-started/tabs/help-panel.php:20
+msgid "Support Ticket"
+msgstr "サポートチケット"
+
+#: inc/getting-started/tabs/help-panel.php:15
+msgid "View Documentation"
+msgstr "ドキュメンテーションを表示"
+
+#: inc/getting-started/tabs/help-panel.php:14
+msgid "Visit the Documentation"
+msgstr "ドキュメンテーションを読む"
+
+#: inc/getting-started/tabs/help-panel.php:13
+msgid "Are you new to the WordPress world? Our step by step easy documentation guide will help you create an attractive and engaging website without any prior coding knowledge or experience."
+msgstr "WordPress を使うのが初めての方向けにステップバイステップの簡単なドキュメントガイドをご用意しています。コーディングの知識や経験がなくても、魅力的なサイトを作成することができます。"
+
+#: inc/getting-started/tabs/help-panel.php:12
+msgid "View Our Documentation Link"
+msgstr "ドキュメンテーションのリンクを表示"
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:13
+msgid "View Pro"
+msgstr "プロ版を表示"
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:12
+#: inc/getting-started/tabs/link-panel.php:13
+msgid "View Premium Version"
+msgstr "プレミアム版を表示"
+
+#: inc/getting-started/tabs/free-vs-pro-panel.php:11
+msgid "Free vs Pro"
+msgstr "無料版とプロ版の違い"
+
+#: functions.php:310
+msgid "Dismiss"
+msgstr "非表示"
+
+#: functions.php:309
+msgid "Go to the getting started."
+msgstr "スタートガイドへ移動する。"
+
+#: functions.php:308
+msgid "%1$s is now installed and ready to use. Click below to see theme documentation, plugins to install and other details to get started."
+msgstr "%1$s をインストールし、使い始められるようになりました。以下をクリックしてテーマのドキュメントやインストールするプラグイン、その他の詳細をご覧ください。"
+
+#: functions.php:307
+msgid "Congratulations!"
+msgstr "おめでとうございます !"
+
+#: header.php:28
+msgid "Skip to content (Press Enter)"
+msgstr "コンテンツへスキップ (Enter を押す)"
+
+#: inc/widget-featured-post.php:117
+msgid "Excerpt Word Count"
+msgstr "抜粋単語数"
+
+#: inc/extras.php:287
+msgid "The Minimal | Developed By "
+msgstr "The Minimal | Developed By "
+
+#: inc/extras.php:166
+msgid "<b class=\"fn\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Person\">%s</b> <span class=\"says\">says:</span>"
+msgstr "<b class=\"fn\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Person\">%s</b> <span class=\"says\">さんの発言:</span>"
+
+#: inc/extras.php:285
+msgid "Y"
+msgstr "Y年"
+
+#: inc/customizer.php:541 inc/extras.php:82 inc/widget-social-links.php:80
+#: inc/widget-social-links.php:182
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/customizer.php:523 inc/extras.php:80 inc/widget-social-links.php:78
+#: inc/widget-social-links.php:176
+msgid "VK"
+msgstr "VK"
+
+#: inc/customizer.php:505 inc/extras.php:78 inc/widget-social-links.php:76
+#: inc/widget-social-links.php:170
+msgid "OK"
+msgstr "OK"
+
+#: inc/info.php:147
+msgid "VIEW PRO THEME"
+msgstr "プロ版テーマを表示"
+
+#: inc/info.php:145
+msgid "Pro Available"
+msgstr "プロ版が利用可能"
+
+#: inc/info.php:29
+msgid "About The Minimal"
+msgstr "The Minimal について"
+
+#: inc/info.php:25
+msgid "More Details"
+msgstr "詳細情報"
+
+#: inc/info.php:24
+msgid "Support ticket"
+msgstr "サポートチケット"
+
+#: inc/info.php:23
+msgid "View documentation"
+msgstr "ドキュメンテーションを表示"
+
+#: inc/info.php:22 inc/info.php:23 inc/info.php:24 inc/info.php:25
+msgid "here"
+msgstr "こちら"
+
+#: inc/info.php:22
+msgid "View demo"
+msgstr "デモを表示"
+
+#: inc/info.php:21
+msgid "Need help?"
+msgstr "お困りですか ?"
+
+#: inc/info.php:11
+msgid "Information Links"
+msgstr "情報リンク"
+
+#: inc/extras.php:225
+msgid "Comment"
+msgstr "コメント"
+
+#: inc/extras.php:212
+msgid "Website"
+msgstr "サイト"
+
+#: inc/extras.php:205
+msgid "Email*"
+msgstr "メール*"
+
+#: inc/extras.php:204
+msgid "Name*"
+msgstr "名前*"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:47
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s 続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:35 template-parts/content.php:59
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/widget-social-links.php:124 inc/widget-social-links.php:130
+#: inc/widget-social-links.php:136 inc/widget-social-links.php:142
+#: inc/widget-social-links.php:148 inc/widget-social-links.php:154
+#: inc/widget-social-links.php:160 inc/widget-social-links.php:166
+#: inc/widget-social-links.php:172 inc/widget-social-links.php:178
+#: inc/widget-social-links.php:184 inc/widget-social-links.php:190
+msgid "Leave blank if you do not want to show."
+msgstr "表示したくない場合は、空欄にしてください。"
+
+#: inc/widget-social-links.php:70
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: inc/widget-social-links.php:40 inc/widget-social-links.php:99
+#: inc/widget-social-links.php:208
+msgid "Social"
+msgstr "ソーシャル"
+
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr "ソーシャルリンクウィジェット"
+
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr "RARA: ソーシャルリンク"
+
+#: inc/widget-recent-post.php:40 inc/widget-recent-post.php:98
+#: inc/widget-recent-post.php:140
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr "最新記事ウィジェット"
+
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr "RARA: 最新記事"
+
+#: inc/widget-popular-post.php:123 inc/widget-recent-post.php:122
+msgid "Show Post Date"
+msgstr "投稿日を表示する"
+
+#: inc/widget-popular-post.php:112 inc/widget-recent-post.php:111
+msgid "Number of Posts"
+msgstr "投稿数"
+
+#: inc/widget-popular-post.php:107 inc/widget-recent-post.php:106
+#: inc/widget-social-links.php:117
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/widget-popular-post.php:40 inc/widget-popular-post.php:99
+#: inc/widget-popular-post.php:141
+msgid "Popular Posts"
+msgstr "人気の投稿"
+
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr "人気の投稿ウィジェット"
+
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr "RARA: 人気の投稿"
+
+#: inc/widget-featured-post.php:123 inc/widget-popular-post.php:118
+#: inc/widget-recent-post.php:117
+msgid "Show Post Thumbnail"
+msgstr "投稿サムネイルを表示する"
+
+#: inc/widget-featured-post.php:113
+msgid "Read More Text"
+msgstr "「続きを読む」テキスト"
+
+#: inc/widget-featured-post.php:103
+msgid "Posts"
+msgstr "投稿"
+
+#: inc/widget-featured-post.php:84
+msgid "--choose--"
+msgstr "-- 選択 --"
+
+#: inc/widget-featured-post.php:39 inc/widget-featured-post.php:96
+#: inc/widget-featured-post.php:142
+msgid "Read More"
+msgstr "続きを読む"
+
+#: inc/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr "特集投稿ウィジェット"
+
+#: inc/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr "RARA: 特集投稿"
+
+#: inc/template-tags.php:78
+msgid "Page"
+msgstr "固定ページ"
+
+#: inc/template-tags.php:77
+msgid "Next"
+msgstr "次"
+
+#: inc/template-tags.php:76
+msgid "Previous"
+msgstr "前"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:59 template-parts/content-page.php:46
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: inc/template-tags.php:52
+msgid "TAGGED WITH: %1$s"
+msgstr "タグ: %1$s "
+
+#: inc/template-tags.php:46
+msgid "FILED UNDER: %1$s"
+msgstr "ファイル・ロケーション: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:44 inc/template-tags.php:50
+msgid ", "
+msgstr "、"
+
+#: inc/template-tags.php:26
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s件のコメント"
+
+#: inc/metabox.php:40
+msgid "Choose Sidebar Template"
+msgstr "サイドバーテンプレートを選択"
+
+#: inc/metabox.php:30
+msgid "No sidebar"
+msgstr "サイドバーなし"
+
+#: inc/metabox.php:25
+msgid "Right sidebar (default)"
+msgstr "右サイドバー (デフォルト)"
+
+#: inc/metabox.php:14
+msgid "Sidebar Layout"
+msgstr "サイドバーレイアウト"
+
+#: inc/extras.php:289
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: inc/extras.php:289
+msgid "Powered by: %s"
+msgstr "Powered by: %s"
+
+#: inc/extras.php:285
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: inc/extras.php:175
+msgid "Edit"
+msgstr "編集"
+
+#: inc/extras.php:169
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/customizer.php:592
+msgid "Put your custom CSS"
+msgstr "カスタム CSS を入力"
+
+#: inc/customizer.php:590
+msgid "Custom Css"
+msgstr "カスタム CSS"
+
+#: inc/customizer.php:572
+msgid "Custom CSS Settings"
+msgstr "カスタム CSS 設定"
+
+#: inc/customizer.php:487 inc/extras.php:76 inc/widget-social-links.php:74
+#: inc/widget-social-links.php:164
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:469 inc/extras.php:74 inc/widget-social-links.php:72
+#: inc/widget-social-links.php:158
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer.php:451 inc/extras.php:72 inc/widget-social-links.php:152
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:433 inc/extras.php:70 inc/widget-social-links.php:68
+#: inc/widget-social-links.php:146
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:415 inc/extras.php:68 inc/widget-social-links.php:66
+#: inc/widget-social-links.php:140
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer.php:397 inc/extras.php:66 inc/widget-social-links.php:64
+#: inc/widget-social-links.php:134
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:379 inc/extras.php:64 inc/widget-social-links.php:62
+#: inc/widget-social-links.php:128
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:361 inc/extras.php:62 inc/widget-social-links.php:60
+#: inc/widget-social-links.php:122
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:343
+msgid "Enable Social Links"
+msgstr "ソーシャルリンクを有効化"
+
+#: inc/customizer.php:325
+msgid "Leave blank if you do not want to show the social link."
+msgstr "ソーシャルリンクを表示したくない場合は、空欄にしてください。"
+
+#: inc/customizer.php:324
+msgid "Social Settings"
+msgstr "ソーシャル設定"
+
+#: inc/customizer.php:312
+msgid "Choose Slider Category"
+msgstr "スライダー・カテゴリーを選択"
+
+#: inc/customizer.php:294
+msgid "Readmore Text"
+msgstr "もっと読む"
+
+#: inc/customizer.php:286 inc/extras.php:98
+#: template-parts/content-search.php:27 template-parts/content.php:66
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+#: inc/customizer.php:276
+msgid "Slider Speed"
+msgstr "スライダー速度"
+
+#: inc/customizer.php:259
+msgid "Slide"
+msgstr "スライド"
+
+#: inc/customizer.php:258
+msgid "Fade"
+msgstr "フェード"
+
+#: inc/customizer.php:254
+msgid "Choose Slider Animation"
+msgstr "スライダーアニメーションを選択"
+
+#: inc/customizer.php:236
+msgid "Enable Slider Thumbnail"
+msgstr "スライダー・サムネイルを有効にする"
+
+#: inc/customizer.php:218
+msgid "Enable Slider Caption"
+msgstr "スライダーキャプションを有効化"
+
+#: inc/customizer.php:200
+msgid "Enable Slider Control"
+msgstr "スライダー・コントロールを有効にする"
+
+#: inc/customizer.php:182
+msgid "Enable Slider Loop"
+msgstr "スライダーループを有効化"
+
+#: inc/customizer.php:164
+msgid "Enable Slider Auto Transition"
+msgstr "スライダーの自動移行を有効にする"
+
+#: inc/customizer.php:146
+msgid "Enable Home Page Slider"
+msgstr "ホームページ・スライダーを有効にする"
+
+#: inc/customizer.php:128
+msgid "Slider Settings"
+msgstr "スライダー設定"
+
+#: inc/customizer.php:39
+msgid "Default section provided by wordpress customizer."
+msgstr "WordPress カスタマイザ－が提供するデフォルトセクション。"
+
+#: inc/customizer.php:38
+msgid "Default Settings"
+msgstr "デフォルト設定"
+
+#: inc/customizer.php:26
+msgid "Choose Category"
+msgstr "カテゴリーを選択"
+
+#: functions.php:172
+msgid "Footer Three"
+msgstr "フッター3"
+
+#: functions.php:162
+msgid "Footer Two"
+msgstr "フッター2"
+
+#: functions.php:152
+msgid "Footer One"
+msgstr "フッター1"
+
+#: functions.php:142
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: functions.php:52
+msgid "Secondary"
+msgstr "サブ"
+
+#: functions.php:51
+msgid "Primary"
+msgstr "メイン"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:49
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:48
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:29
+msgid "Comments"
+msgstr "コメント"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links or a search?"
+msgstr "このロケーションには何も見つかりません。リンクをお試しになるか、検索機能をお使いになりますか？"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://rarathemes.com/wordpress-themes/the-minimal/"
+msgstr "https://rarathemes.com/wordpress-themes/the-minimal/"
+
+#. Author of the theme
+#: inc/extras.php:288
+#, gp-priority: low
+msgid "Rara Theme"
+msgstr "Rara Theme"

@@ -1,0 +1,131 @@
+# Translation of Themes - Worldwide in Japanese
+# This file is distributed under the same license as the Themes - Worldwide package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-30 22:48:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Worldwide\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Worldwide"
+msgstr "Worldwide"
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "検索..."
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: image.php:20
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "次へ <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:19
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前へ"
+
+#: header.php:41
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:36
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:26
+msgid "All Rights Reserved"
+msgstr "All Rights Reserved"
+
+#: content-page.php:25 content-single.php:22 image.php:44
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:19 image.php:38
+msgid "Pages:"
+msgstr "ページ:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr "メタ"
+
+#. Translators: If there are any character that are not supported by Roboto
+#. Condensed, trsnalate this to off, do not translate into your own language.
+#: functions.php:98
+msgctxt "robotocondensed:on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:82
+msgid "Footer Widget 3"
+msgstr "フッターウィジェット3"
+
+#: functions.php:72
+msgid "Footer Widget 2"
+msgstr "フッターウィジェット2"
+
+#: functions.php:62
+msgid "Footer Widget 1"
+msgstr "フッターウィジェット1"
+
+#: functions.php:53
+msgid "Blog Sidebar"
+msgstr "ブログサイドバー"
+
+#: inc/customizer.php:37
+msgid "Color Management"
+msgstr "カラー管理"
+
+#: content.php:28
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:24
+msgid "Read More"
+msgstr "もっと読む"
+
+#: 404.php:14
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: functions.php:63 functions.php:73 functions.php:83
+msgid "Appears on footer"
+msgstr "フッターに表示されます"
+
+#: functions.php:54
+msgid "Appears on blog page sidebar"
+msgstr "ブログページのサイドバーに表示されます"
+
+#: inc/customizer.php:38
+msgid "More color options in pro version"
+msgstr "Pro バージョンでもっと多くのカラーオプション"
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
